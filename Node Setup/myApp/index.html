@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+    </head>
+
+<body>
+   
+    <div ng-app="myApp">
+        <p> Hello Index </p> 
+        <div>
+            <a href="#/demofile1">demofile 1</a> 
+            <a href="#/demofile2">demofile 2</a> 
+        </div>
+        <div ng-view></div>
+
+
+    </div>
+
+    <script src="./myApp.js"></script>
+    <script src="./myCtrl1.js"></script>
+    <script src="./myCtrl2.js"></script>
+    
+
+</body>
+</html>
